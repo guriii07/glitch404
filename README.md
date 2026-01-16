@@ -1,19 +1,44 @@
-# GLITCH//404: Signal Lost in the Noise
+# ⚡ Glitch 404 — Backend
 
-A conceptual website exploring mental health in the digital age — where identity glitches, emotions loop, and silence becomes loud.  
-Built for a hackathon project to reflect the overwhelmed minds behind the screens.
+**Live API:** [glitch404-backend-production.up.railway.app](https://glitch404-backend-production.up.railway.app)
 
-### 🌀 Theme
-**GLITCH//404** represents the digital void where people feel ignored, anxious, or lost online. Each section reflects emotional states like identity loss, system overload, and emotional corruption.
-
-### ⚙️ Tech Stack
-- HTML, CSS, JavaScript
-- Designed from scratch — no templates
-- Deployed using GitHub Pages
-
-### 📡 Live Site
-[Visit the Live Site](https://guriii07.github.io/glitch404)
+> _"Signal Lost in the Noise"_ — Backend server for the Glitch 404 project, powering real-time chat and handling API requests.
 
 ---
 
-> _“If you feel like a 404, you’re not alone.”_
+## 📌 Overview
+The backend for **Glitch 404**:
+- Handles real-time chat with **Socket.io**
+- Provides API endpoints for the frontend
+- Uses **Express.js** for server-side logic
+- Deployed on **Railway**
+
+---
+
+## 🛠 Tech Stack
+- **Node.js**
+- **Express.js**
+- **Socket.io**
+- **CORS**
+- **Railway** for deployment
+
+---
+
+## 🚀 Features
+✅ Real-time messaging via Socket.io  
+✅ API endpoints for mood affirmations (and more)  
+✅ CORS enabled for secure frontend-backend communication  
+✅ Production-ready (uses `process.env.PORT`)  
+
+---
+
+## 📂 Project Structure
+backend/
+├── node_modules/ # Installed dependencies
+├── index.js # Main server file
+├── socket.js # Socket.io event handling
+├── package.json # Project dependencies & scripts
+├── package-lock.json # Dependency lock file
+└── README.md # Project documentation
+
+
